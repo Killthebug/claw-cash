@@ -82,7 +82,7 @@ Environment:
   CLW_ARK_SERVER_URL   Arkade server URL
   CLW_NETWORK          Network (bitcoin|testnet)
   CLW_DAEMON_PORT      Daemon port (default: 3457)
-  CLW_DELEGATOR_URL    Delegator service URL (e.g. https://delegate.arkade.money)
+  CLW_DELEGATOR_URL    Delegator service URL (e.g. https://arkade.computer)
 `;
 
 const argv = minimist(process.argv.slice(2), {
